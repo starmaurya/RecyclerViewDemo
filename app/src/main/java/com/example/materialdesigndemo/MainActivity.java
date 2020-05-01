@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationDrawerFragment drawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_drawer);
         assert drawerFragment != null;
         drawerFragment.setUp(R.id.fragment_drawer,(DrawerLayout)findViewById(R.id.drawer_layout),toolbar);
+
+        Toast.makeText(this, "Hello git", Toast.LENGTH_SHORT).show();
     }
 
 
