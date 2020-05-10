@@ -63,6 +63,8 @@ public class NavigationAdapter extends RecyclerView.Adapter<NavigationAdapter.My
             icon = itemView.findViewById(R.id.listIcon);
 
             itemView.setOnClickListener(this);
+
+
         }
 
         @Override

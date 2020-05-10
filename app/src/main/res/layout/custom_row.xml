@@ -4,7 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="48dp"
     android:orientation="horizontal"
-    tools:ignore="UseCompoundDrawables">
+    android:clickable="true"
+    android:background="@drawable/custom_bg"
+    tools:ignore="UseCompoundDrawables"
+    android:focusable="true">
 
     <ImageView
         android:id="@+id/listIcon"
